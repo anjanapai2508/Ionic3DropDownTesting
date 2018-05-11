@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+     <p> Testing ionic Dropdown </p>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+        <button ion-button round (click)="expandDropdown($event)" class="menuButton">MENU</button>
+  <div class="images">
+    <div class="one-image" *ngFor="let image of [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]">
+      <img src="assets/imgs/{{image}}.png">
+    </div>
+  </div>
+</ion-content>
